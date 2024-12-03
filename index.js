@@ -181,14 +181,14 @@ mainBox.addEventListener("click", (e) => {
 
   let winner = checkWinner();
   if (winner === "x") {
-    result.textContent = "I Love You Supriya ❤️❤️❤️";
+    result.textContent = "सो जाओ साक्षी कब तक राहुल जी से बात करते रहोगी";
     winnerSelected = true;
   } else if (winner === "o") {
-    result.textContent = "I Love You Supriya ❤️❤️❤️";
+    result.textContent = "सो जाओ साक्षी कब तक राहुल जी से बात करते रहोगी";
     winnerSelected = true;
   }
   if(counter === 9 && !winnerSelected){
-    result.textContent = "I Love You Supriya ❤️❤️❤️";
+    result.textContent = "सो जाओ साक्षी कब तक राहुल जी से बात करते रहोगी";
   }
 });
 
@@ -200,3 +200,4 @@ newGame.addEventListener("click", () => {
 });
 
 // Congratulation🎉 X Won The Match!
+// क्या ख़ुशी क्या हाल है ज्यादा गेम नहीं खेलो कल परीक्षा है पढ़ लो
