@@ -188,7 +188,7 @@ mainBox.addEventListener("click", (e) => {
     winnerSelected = true;
   }
   if(counter === 9 && !winnerSelected){
-    result.textContent = "क्या ख़ुशी क्या हाल है ज्यादा गेम नहीं खेलो कल परीक्षा है पढ़ लो";
+    result.textContent = "क्या ख़ुशी match Tie kar di!!";
   }
 });
 
