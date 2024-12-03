@@ -181,14 +181,14 @@ mainBox.addEventListener("click", (e) => {
 
   let winner = checkWinner();
   if (winner === "x") {
-    result.textContent = "क्या ख़ुशी क्या हाल है ज्यादा गेम नहीं खेलो कल परीक्षा है पढ़ लो";
+    result.textContent = "Hi Seema Ma'am, You are the best teacher I ever meet.😊";
     winnerSelected = true;
   } else if (winner === "o") {
-    result.textContent = "क्या ख़ुशी क्या हाल है ज्यादा गेम नहीं खेलो कल परीक्षा है पढ़ लो";
+    result.textContent = "Hi Seema Ma'am, You are the best teacher I ever meet.😊";
     winnerSelected = true;
   }
   if(counter === 9 && !winnerSelected){
-    result.textContent = "क्या ख़ुशी match Tie kar di!!";
+    result.textContent = "Hi Seema Ma'am, You are the best teacher I ever meet.😊";
   }
 });
 
@@ -200,5 +200,4 @@ newGame.addEventListener("click", () => {
 });
 
 // Congratulation🎉 X Won The Match!
-// क्या ख़ुशी क्या हाल है ज्यादा गेम नहीं खेलो कल परीक्षा है पढ़ लो
-// सो जाओ साक्षी कब तक राहुल जी से बात करते रहोगी
+
