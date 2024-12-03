@@ -181,14 +181,14 @@ mainBox.addEventListener("click", (e) => {
 
   let winner = checkWinner();
   if (winner === "x") {
-    result.textContent = "Congratulation🎉 X Won The Match!";
+    result.textContent = "I Love You Supriya ❤️❤️❤️";
     winnerSelected = true;
   } else if (winner === "o") {
-    result.textContent = "Congratulation🎉 O Won The Match!";
+    result.textContent = "I Love You Supriya ❤️❤️❤️";
     winnerSelected = true;
   }
   if(counter === 9 && !winnerSelected){
-    result.textContent = "Match Tie, Please Restart The Game!";
+    result.textContent = "I Love You Supriya ❤️❤️❤️";
   }
 });
 
@@ -198,3 +198,5 @@ newGame.addEventListener("click", () => {
   winnerSelected = false;
   result.textContent = "Player O Term";
 });
+
+// Congratulation🎉 X Won The Match!
