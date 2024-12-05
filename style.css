@@ -18,6 +18,7 @@ h1{
   color: rgb(166, 238, 144);
   background-color: black;
   border-bottom: 1px solid rgb(185, 231, 171);
+  margin-top: 10px;
 }
 .row1,
 .row2,
@@ -75,7 +76,7 @@ h1{
 }
 
 .winner{
-  width: 350px;
+  width: 300px;
   height: 40px;
   background-color: rgb(166, 238, 144);
   position: absolute;
@@ -83,7 +84,8 @@ h1{
   border-radius: 20px;
   text-align: center;
   line-height: 40px;
-  font-size: 12px;
+  font-size: 14px;
+  font-style: italic;
 }
 
 .player{

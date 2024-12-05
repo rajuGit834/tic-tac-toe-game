@@ -181,14 +181,14 @@ mainBox.addEventListener("click", (e) => {
 
   let winner = checkWinner();
   if (winner === "x") {
-    result.textContent = "Hi Seema Ma'am, You are the best teacher I ever meet.😊";
+    result.textContent = "Congratulation🎉 X Won The Match!";
     winnerSelected = true;
   } else if (winner === "o") {
-    result.textContent = "Hi Seema Ma'am, You are the best teacher I ever meet.😊";
+    result.textContent = "Congratulation🎉 X Won The Match!";
     winnerSelected = true;
   }
   if(counter === 9 && !winnerSelected){
-    result.textContent = "Hi Seema Ma'am, You are the best teacher I ever meet.😊";
+    result.textContent = "Match Tie!, Please Restart The Game..";
   }
 });
 
@@ -199,5 +199,4 @@ newGame.addEventListener("click", () => {
   result.textContent = "Player O Term";
 });
 
-// Congratulation🎉 X Won The Match!
 
